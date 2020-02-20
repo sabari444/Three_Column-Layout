@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Three Column</title>
+        <style>
+            #page{
+                width: 960px;
+                margin: 0 auto;
+            }
+            #content{
+                background-color: lawngreen;
+                padding: 10px;
+            }
+            #leftsidebar{
+                width: 20%;
+                float: left;
+                margin-right: 3%;
+            }
+            #main{
+                width: 50%;
+                float: left;
+            }
+            #rightsidebar{
+                width: 20%;
+                float: right;
+            }
+            .clear{
+                clear: both;
+            }
+        </style>
+    </head>
+    <body>
+            <div id="page">  <!--This "div" tag is declaring the page-->
+            <div id="content">  <!--This "div" is used to assing the 'left nd rightsidebars and paragraphs' in the same div as a 'content div' -->
+            <div id="leftsidebar">  <!--Here the 'heading and paragraph' is assinged in 'one division'-->
+        <h2>Left Sidebar</h2>  
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum at animi, harum dolor fugiat ipsa excepturi distinctio necessitatibus magnam inventore voluptatibus sit earum maxime sunt? Quaerat qui consequuntur tempora quod id nostrum reprehenderit quis sunt molestias blanditiis distinctio nobis enim explicabo unde aspernatur rem magni totam, nesciunt ipsam sapiente repudiandae.</p></div>
+            <div id="main">  <!--Here also the above condision is applied-->
+        <h1>Three Column Layout</h1>  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quibusdam et sint, distinctio impedit nulla odit blanditiis amet placeat? A alias, vel earum sapiente officiis, voluptates veniam cupiditate provident harum, iusto reprehenderit consectetur eum aliquid corporis numquam minima aliquam debitis libero commodi similique ex. Saepe, cumque itaque nemo vero cum, quod corporis voluptates temporibus, suscipit assumenda rem sint placeat ipsum dolorum rerum odit commodi vel minima? Rerum hic consequatur saepe dolore tempora reprehenderit quaerat numquam eligendi voluptates vitae? Illo, sed accusantium aliquam consectetur veritatis asperiores non voluptatum exercitationem corporis rerum nostrum dicta deleniti laboriosam, cupiditate omnis neque placeat, maiores rem.</p></div>
+            <div id="rightsidebar">  <!--The 'heading & unordered list' is assign in the 'one div'-->
+        <h3>Right Sidebar</h3>  
+            <ul>
+            <li> <a href="a"></a> Home </li>
+            <li> <a href="a"></a> Gallery </li>
+            <li> <a href="a"></a> Contact </li>
+            <li> <a href="a"></a> About </li>
+            <li> <a href="a"></a> Info </li>
+        </ul></div>
+        <br class="clear"> <!--This "br" Tag is used to clear the float in the flow and break the float-->
+    </div> <!--The 'content div' is ends here-->
+            <div id="footer">  <!--The separate div is assigned for footer-->
+        <p> &copy; Copyrights 2020, All Rights Reserved </p></div> 
+    </div>  <!--The "Page div" is ends here-->
+    </body>
+</html>
